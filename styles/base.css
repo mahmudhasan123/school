@@ -105,22 +105,101 @@ nav .logo {
   max-width: 575px;
 }
 .banner-container h2 {
-  color: var(--Black, #111);
-  font-family: Quicksand;
   font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 61px;
+  line-height: 60px;
 }
 .banner-container p {
-  color: var(--Black, #111);
-  font-family: Quicksand;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 .banner-btn {
   background: #111;
   color: #fff;
+}
+
+/* Curriculum Section Styles */
+.curriculum {
+  margin-bottom: 60px;
+}
+
+.curriculum-container h2 {
+  font-size: 46px;
+  line-height: 58px;
+  text-align: center;
+}
+.curriculum-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 80px 0;
+}
+
+.curriculum-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 50px 40px;
+  border-radius: 18px;
+  box-shadow: 0px 0px 28px 1px rgba(0, 0, 0, 0.05) inset;
+  max-width: 350px;
+}
+
+.kinder-curriculum {
+  border: 1px solid #def5ff;
+  background: linear-gradient(180deg, #def5ff 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+}
+
+.elementary-curriculum {
+  border: 1px solid #fff4dc;
+  background: linear-gradient(180deg, #fff4dc 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+}
+
+.middle-curriculum {
+  border: 1px solid #f2e8ff;
+  background: linear-gradient(180deg, #eee1ff 0%, rgba(255, 255, 255, 0) 40%),
+    #fff;
+}
+
+.curriculum-details h3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+.curriculum-details p {
+  color: #808080;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.curriculum-details button {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.curriculum-details button:hover {
+  text-decoration: underline;
+}
+
+.arrow-btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.arrow-btn {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: #fea301;
+  border: none;
+  cursor: pointer;
 }
