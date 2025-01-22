@@ -23,6 +23,9 @@ body {
 .color-blue {
   color: #5d58ef;
 }
+.color-yellow {
+  color: #fea301;
+}
 .btn {
   font-size: 20px;
   font-weight: 700;
@@ -85,4 +88,39 @@ nav .logo {
   color: #fff;
   background: #fea301;
   font-weight: 600;
+}
+
+/* Banner Section Styles */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 60px;
+}
+.banner-container {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  max-width: 575px;
+}
+.banner-container h2 {
+  color: var(--Black, #111);
+  font-family: Quicksand;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 61px;
+}
+.banner-container p {
+  color: var(--Black, #111);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.banner-btn {
+  background: #111;
+  color: #fff;
 }
