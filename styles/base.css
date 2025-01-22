@@ -203,3 +203,72 @@ nav .logo {
   border: none;
   cursor: pointer;
 }
+
+/* Our Stories Section Styles */
+
+/* Footer Section Styles */
+footer {
+  background: #01acfd;
+}
+
+.footer {
+  display: flex;
+  padding: 8rem 0;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+.footer-info-container {
+  max-width: 400px;
+}
+
+.footer-info-container p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-info-items {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.footer-info-items h2 {
+  color: #fff;
+  font-size: 42px;
+  line-height: 39px;
+}
+
+.footer-menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-menu-items li {
+  list-style: none;
+}
+
+.footer-menu-items li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer-menu-items li a:hover {
+  text-decoration: underline;
+}
+
+.social-links h3,
+.footer-menu h3 {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.social-link-items {
+  display: flex;
+  gap: 10px;
+}
