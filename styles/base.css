@@ -373,4 +373,7 @@ footer {
   .curriculum-info {
     flex-direction: column;
   }
+  .stories-box {
+    width: 100%;
+  }
 }
