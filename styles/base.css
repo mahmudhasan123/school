@@ -354,3 +354,23 @@ footer {
   display: flex;
   gap: 10px;
 }
+
+/* Responsive CSS */
+
+@media (max-width: 576px) {
+  body {
+    margin: 0 16px;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .hide-content {
+    display: none;
+  }
+  .visible-content {
+    display: block;
+  }
+  .curriculum-info {
+    flex-direction: column;
+  }
+}
