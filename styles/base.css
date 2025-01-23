@@ -121,7 +121,8 @@ nav .logo {
   margin-bottom: 60px;
 }
 
-.curriculum-container h2 {
+.curriculum-container h2,
+.stories-heading {
   font-size: 46px;
   line-height: 58px;
   text-align: center;
@@ -205,6 +206,87 @@ nav .logo {
 }
 
 /* Our Stories Section Styles */
+.stories {
+}
+.stories-heading {
+  padding-top: 60px;
+}
+.stories-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 80px 0;
+}
+
+.stories-container div {
+}
+
+.stories-one {
+  border-radius: 16px;
+  background: #fff;
+  width: 50%;
+}
+.stories-container img {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+}
+.stories-box {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.stories-content {
+  display: flex;
+  border-radius: 16px;
+  background: #fff;
+  width: 49%;
+  flex-direction: column;
+}
+.stories-text {
+  border-radius: 16px;
+  background: #fff;
+  padding: 28px 38px;
+
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.top-stories {
+  padding: 38px;
+}
+.top-stories h3 {
+  font-size: 24px;
+  line-height: 38px;
+  margin-bottom: 40px;
+}
+.top-stories .text {
+  color: #666;
+  font-size: 15px;
+
+  font-weight: 500;
+  line-height: 28px;
+}
+.relative {
+  position: relative;
+}
+.date {
+  border-radius: 47px;
+  background: #95b226;
+  padding: 10px 18px;
+
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 28px;
+  position: absolute;
+  bottom: -20px;
+  left: 10%;
+}
+.stories-btn {
+  text-align: center;
+  margin-bottom: 60px;
+}
 
 /* Footer Section Styles */
 footer {
